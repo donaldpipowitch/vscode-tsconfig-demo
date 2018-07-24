@@ -1,0 +1,29 @@
+{
+  "name": "example-spa-ts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "ws build",
+    "unit": "jest --config tests/jest.config.js"
+  },
+  "ws": {
+    "type": "spa"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^16.0.0",
+    "@types/react-hot-loader": "^4.1.0",
+    "normalize.css": "^8.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-hot-loader": "^4.3.3"
+  },
+  "devDependencies": {
+    "@mercateo/ws": "^2.11.2",
+    "@types/jest": "^23.3.0",
+    "@types/react-test-renderer": "^16.0.0",
+    "@types/webpack-env": "^1.13.6",
+    "jest": "^23.4.1",
+    "react-test-renderer": "^16.0.0"
+  }
+}
